@@ -48,6 +48,12 @@ export default function Tabs() {
           <TabsContent />
         </div>
       </div>
+      <div
+        style={{ height: '100px', width: '200px', background: 'green' }}
+        onClick={() => {
+          alert('clicked');
+        }}
+      ></div>
     </>
   );
 }
