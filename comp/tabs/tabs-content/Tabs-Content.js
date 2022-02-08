@@ -4,11 +4,16 @@ import css from './Tabs-Content.module.scss';
 
 // ==============================================
 
-export default function Content() {
+export default function TabsContent() {
   // --------------------------------------------
 
   // --------------------------------------------
   // --------------------------------------------
 
-  return <></>;
+  return (
+    <>
+      <div className={css.left}></div>
+      <div className={css.right}></div>
+    </>
+  );
 }

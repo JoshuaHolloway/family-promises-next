@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import TabsContent from './tabs-content/Tabs-Content';
 
 import css from './Tabs.module.scss';
 
@@ -43,10 +44,9 @@ export default function Tabs() {
             );
           })}
         </div>
-        <div
-          className={css.content}
-          style={{ background: tabs[active].color }}
-        ></div>
+        <div className={css.content} style={{ background: tabs[active].color }}>
+          <TabsContent />
+        </div>
       </div>
     </>
   );
