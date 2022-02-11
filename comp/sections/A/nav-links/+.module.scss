@@ -5,6 +5,8 @@
   width: 100%;
   background: $bg-primary;
 
+  border-bottom: solid $bg-secondary 3px;
+
   display: grid;
   align-items: flex-end;
   grid-template-columns: repeat(6, 1fr);
