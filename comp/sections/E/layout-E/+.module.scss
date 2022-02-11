@@ -14,8 +14,6 @@
   }
 
   .Ea {
-    height: 100%;
-    width: 100%;
     grid-area: Ea;
     background: red;
   }
@@ -27,10 +25,10 @@
 
   .Ec_l {
     grid-area: Ec_l;
-    background: skyblue;
+    background: white;
   }
   .Ec_r {
     grid-area: Ec_r;
-    background: blue;
+    background: white;
   }
 }
