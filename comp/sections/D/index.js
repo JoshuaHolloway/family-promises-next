@@ -1,4 +1,4 @@
-import CaseData from '../../JOSH-Case-Data';
+import CaseData from '../../Case-Data';
 
 import css from './+.module.scss';
 

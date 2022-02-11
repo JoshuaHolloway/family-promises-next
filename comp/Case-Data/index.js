@@ -17,7 +17,7 @@ export default function CaseData() {
 
   // --------------------------------------------
 
-  const clickHandler = () => setIsModalVisible(prev => !prev);
+  const clickHandler = () => setIsModalVisible((prev) => !prev);
 
   // --------------------------------------------
 
@@ -26,29 +26,25 @@ export default function CaseData() {
       case_id: 'XXXX',
       first_name: 'John',
       last_name: 'Doe',
-      note:
-        'Met with family. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+      note: 'Met with family. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
     },
     {
       case_id: 'XXXX',
       first_name: 'John',
       last_name: 'Doe',
-      note:
-        'Met with family. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+      note: 'Met with family. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
     },
     {
       case_id: 'XXXX',
       first_name: 'John',
       last_name: 'Doe',
-      note:
-        'Met with family. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+      note: 'Met with family. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
     },
     {
       case_id: 'XXXX',
       first_name: 'John',
       last_name: 'Doe',
-      note:
-        'Met with family. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+      note: 'Met with family. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
     },
   ];
 

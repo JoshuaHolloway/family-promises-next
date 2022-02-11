@@ -4,6 +4,7 @@
   background: hotpink;
 
   display: grid;
+  align-items: flex-end;
   grid-template-columns: repeat(6, 1fr);
 
   .nav_link {
@@ -14,6 +15,10 @@
     align-items: center;
 
     cursor: pointer;
+
+    transition: height 0.1s;
+
+    height: 90%;
 
     &.active {
       height: 100%;
