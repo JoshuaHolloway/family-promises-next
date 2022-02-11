@@ -54,7 +54,6 @@ export default function NavLinks() {
       {nav_links.map((x, n) => (
         <div
           key={x.title}
-          // className={css.nav_link}
           className={`${css.nav_link} ${active === n ? css.active : ''}`}
           onClick={handleClick(n)}
         >
