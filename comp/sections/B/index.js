@@ -3,5 +3,5 @@ import Tabs from '../../tabs/Tabs';
 import css from './+.module.scss';
 
 export default function B() {
-  return <>{/* <Tabs /> */}</>;
+  return <h2>Recent Cases</h2>;
 }

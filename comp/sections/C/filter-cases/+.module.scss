@@ -1,0 +1,14 @@
+@import '/styles/globals';
+
+.filter_cases {
+  display: flex;
+  justify-content: space-evenly;
+  background: white;
+
+  .filter_case {
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    background: $bg-gray;
+  }
+}
