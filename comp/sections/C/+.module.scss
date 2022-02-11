@@ -1,0 +1,8 @@
+@import '/styles/globals';
+
+.C {
+  @media (max-width: #{$sm}) {
+    // -Hide on mobile
+    display: none;
+  }
+}
