@@ -1,0 +1,12 @@
+.container {
+  height: 100%;
+  width: 100%;
+  background: hotpink;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  .nav_link {
+    display: flex;
+  }
+}
