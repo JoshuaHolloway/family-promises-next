@@ -1,3 +1,4 @@
+import Ea from './Ea';
 import Eb from './Eb';
 import Ec_l from './Ec_l';
 import Ec_r from './Ec_r';
@@ -8,7 +9,9 @@ export default function LayoutE() {
   return (
     <>
       <div className={css.container}>
-        <div className={css.Ea}>Ea</div>
+        <div className={css.Ea}>
+          <Ea />
+        </div>
         <div className={css.Eb}>
           <Eb />
         </div>

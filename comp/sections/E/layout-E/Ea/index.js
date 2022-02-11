@@ -1,9 +1,9 @@
 import css from './+.module.scss';
 
-export default function B() {
+export default function Ea() {
   return (
     <div className={css.container}>
-      <h2>Recent Cases</h2>
+      <h2>Recent Activity</h2>
     </div>
   );
 }
