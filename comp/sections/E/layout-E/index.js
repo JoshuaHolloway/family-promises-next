@@ -8,7 +8,7 @@ import css from './+.module.scss';
 export default function LayoutE() {
   return (
     <>
-      <div className={css.container}>
+      <div className={css.container} style={{ height: '100%' }}>
         <div className={css.Ea}>
           <Ea />
         </div>
