@@ -1,7 +1,9 @@
+@import '/styles/globals';
+
 .container {
   height: 100%;
   width: 100%;
-  background: hotpink;
+  background: $bg-primary;
 
   display: grid;
   align-items: flex-end;
@@ -21,7 +23,7 @@
     transition: height 0.1s;
 
     height: 90%;
-    background: #ede6e0;
+    background: $bg-primary;
     color: #333333;
 
     // Below has hacks because the svg was grabbed from the static figma file where the first tab was active and hence its color was reversed
@@ -34,11 +36,11 @@
     &.active {
       height: 100%;
       background: #333333;
-      color: #ede6e0;
+      color: $bg-primary;
 
       &:not(&:first-child) {
         svg {
-          background: #ede6e0;
+          background: $bg-primary;
         }
       }
     }

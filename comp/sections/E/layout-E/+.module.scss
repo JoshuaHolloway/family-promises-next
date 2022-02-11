@@ -3,36 +3,29 @@
 @import './res/+';
 
 .container {
-  background: orange;
+  background: #ede6e0;
 
   width: 100%;
-  height: 100% !important;
+  height: 100% !important; // should not need: inline style - hack due to weird build transformation removing height
 
   .Ea {
     grid-area: Ea;
-    background: red;
   }
 
   .Eb {
     grid-area: Eb;
-    background: green;
-
     width: 100%;
     height: 100%;
   }
 
   .Ec_l {
     grid-area: Ec_l;
-    background: white;
   }
   .Ec_r {
     grid-area: Ec_r;
-    background: white;
   }
 
   * {
-    // width: 100%;
-    // height: 100%;
     background: #ede6e0;
   }
 }

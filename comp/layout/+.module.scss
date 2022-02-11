@@ -15,29 +15,34 @@
     > {
       width: 100%;
       height: 100%;
+      background: $bg-primary;
     }
 
     .A {
       grid-area: A;
-      background: red;
+      // background: red;
     }
     .B {
       grid-area: B;
-      background: green;
+      // background: green;
     }
     .C {
       grid-area: C;
-      background: orange;
+      // background: $bg-primary;
     }
     .D {
       grid-area: D;
-      background: skyblue;
+      // background: $bg-primary;
     }
     .E {
       grid-area: E;
-      background: darkorchid;
+      // background: $bg-primary;
       width: 100%;
       height: 100%;
+    }
+
+    > * {
+      background: $bg-primary;
     }
   }
 }

@@ -1,8 +1,10 @@
+@import '/styles//globals';
+
 $duration: 0.4s;
 
 .dropdown_container {
   position: relative;
-  background: orange;
+  background: $bg-primary;
 
   display: flex;
   justify-content: flex-end;
