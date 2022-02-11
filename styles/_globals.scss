@@ -1,4 +1,5 @@
 $nav-h: 100px;
+$input-h: 40px;
 
 // category   width     products
 // mobile:    375px	    iPhone 6 to X
@@ -11,3 +12,5 @@ $nav-h: 100px;
 $sm: 571px; // <= 571
 $md: 572px; // >= (768  - 375) / 2 + 375 = 571.5
 $lg: 1344px; // >= (1920 - 768) / 2 + 768 = 1344
+
+$bg-gray: #c4c4c4;

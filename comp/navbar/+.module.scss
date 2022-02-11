@@ -3,7 +3,9 @@
 .navbar {
   position: relative;
 
-  background: lightblue;
+  background: white;
   height: $nav-h;
   width: 100%;
+
+  display: flex;
 }
