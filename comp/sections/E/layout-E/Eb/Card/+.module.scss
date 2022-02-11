@@ -5,4 +5,15 @@
   width: 100%;
   display: grid;
   place-items: center;
+
+  .card {
+    border: solid black 2px;
+    height: 80%;
+    width: 80%;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+    display: grid;
+    place-items: center;
+  }
 }

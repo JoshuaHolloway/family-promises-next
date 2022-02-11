@@ -8,11 +8,6 @@
   width: 100%;
   height: 100% !important;
 
-  > {
-    width: 100%;
-    height: 100%;
-  }
-
   .Ea {
     grid-area: Ea;
     background: red;
@@ -33,5 +28,11 @@
   .Ec_r {
     grid-area: Ec_r;
     background: white;
+  }
+
+  * {
+    // width: 100%;
+    // height: 100%;
+    background: #ede6e0;
   }
 }
