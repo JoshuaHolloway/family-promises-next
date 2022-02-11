@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    'Ea    Ea    Ea    Ea    Ea    Ea'
+    'Ec_l  Eb    Eb    Eb    Eb    Ec_r'
+    'Ec_l  Eb    Eb    Eb    Eb    Ec_r';
+}

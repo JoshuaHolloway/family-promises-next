@@ -1,0 +1,36 @@
+@import '/styles//globals';
+
+@import './res/+';
+
+.container {
+  background: orange;
+
+  width: 100%;
+  height: 100%;
+
+  > {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Ea {
+    height: 100%;
+    width: 100%;
+    grid-area: Ea;
+    background: red;
+  }
+
+  .Eb {
+    grid-area: Eb;
+    background: green;
+  }
+
+  .Ec_l {
+    grid-area: Ec_l;
+    background: skyblue;
+  }
+  .Ec_r {
+    grid-area: Ec_r;
+    background: blue;
+  }
+}

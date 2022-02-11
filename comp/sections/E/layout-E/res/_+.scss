@@ -1,0 +1,11 @@
+@import '/styles/globals';
+
+@media (max-width: #{$sm}) {
+  @import './sm';
+}
+@media (min-width: #{$md}) {
+  @import './md';
+}
+@media (min-width: #{$lg}) {
+  @import './lg';
+}
