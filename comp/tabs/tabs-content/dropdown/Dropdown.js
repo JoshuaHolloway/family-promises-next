@@ -45,7 +45,9 @@ export default function TabsContent() {
           ))}
         </div>
 
-        <div className={css.dropdown_button} onClick={handleClick}></div>
+        <div className={css.dropdown_button} onClick={handleClick}>
+          Filter
+        </div>
       </div>
     </>
   );
