@@ -1,6 +1,8 @@
 @import '/styles//globals';
 
 .navbar {
+  position: relative;
+
   background: lightblue;
   height: $nav-h;
   width: 100%;
