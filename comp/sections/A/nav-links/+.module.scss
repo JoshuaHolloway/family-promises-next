@@ -8,7 +8,9 @@
   grid-template-columns: repeat(6, 1fr);
 
   .nav_link {
-    border: solid orange 5px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    // border: solid orange 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -19,10 +21,20 @@
     transition: height 0.1s;
 
     height: 90%;
+    background: #ede6e0;
+    color: #333333;
+
+    // Below has hacks because the svg was grabbed from the static figma file where the first tab was active and hence its color was reversed
+    // &:first-child {
+    //   background: #ede6e0;
+    //   color: #333333;
+    // }
 
     &.active {
       height: 100%;
-      background: red;
+
+      background: #333333;
+      color: #ede6e0;
     }
   }
 }
