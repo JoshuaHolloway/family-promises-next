@@ -1,11 +1,22 @@
 @import '/styles//globals';
 
-.navbar {
-  position: relative;
+@import './res/+';
 
-  background: white;
+.navbar {
   height: $nav-h;
   width: 100%;
 
-  display: flex;
+  .A {
+    grid-area: A;
+  }
+  .B {
+    grid-area: B;
+  }
+  .C {
+    grid-area: C;
+
+    @media (max-width: #{$lg}) {
+      display: none;
+    }
+  }
 }

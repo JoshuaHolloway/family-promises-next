@@ -8,9 +8,16 @@ export default function Navbar() {
   return (
     <>
       <nav className={css.navbar}>
-        <Input />
-        <Logo />
-        <Profile />
+        <div className={css.A}>
+          <Logo />
+        </div>
+        <div className={css.B}>
+          <Input />
+        </div>
+
+        <div className={css.C}>
+          <Profile />
+        </div>
       </nav>
     </>
   );

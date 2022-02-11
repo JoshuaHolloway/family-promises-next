@@ -1,0 +1,7 @@
+@import '/styles/globals';
+
+.navbar {
+  display: grid;
+  grid-template-columns: $logo-w 1fr;
+  grid-template-areas: 'A B';
+}
