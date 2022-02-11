@@ -3,11 +3,15 @@
 .filter_cases {
   display: flex;
   justify-content: space-evenly;
-  background: white;
+  width: 500px;
 
   .filter_case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     height: 30px;
-    width: 100px;
+    width: 400px;
     border-radius: 3px;
     background: $bg-gray;
   }
