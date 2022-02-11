@@ -1,5 +1,5 @@
-// import css from './+.module.scss';
+import css from './+.module.scss';
 
 export default function Eb() {
-  return <>Card</>;
+  return <div className={css.container}>Card</div>;
 }
